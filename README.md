@@ -32,6 +32,6 @@ How to connect to Local MySQL:
 
 1. Visual code (remote connect via SSH):
 2. Install *Remote Development* plugin
-3. Select *Remote Explorer* and add *ssh -i <path_to_your_key>/<key_name.pem> ec2-user@<instance_public_ip>*
+3. Select *Remote Explorer* and add *ssh -i <path_to_your_key>/<key_name.pem> ec2-user@<instance_public_ip>
 
 FYI for saving money, in the end of session stop your EC2 instance.
