@@ -18,3 +18,7 @@ Installing MySQL 8
 1. sudo dnf upgrade --refresh -y
 2. sudo dnf install mysql mysql-server -y
 3. sudo systemctl enable mysqld --now
+
+1. Visual code (remote connect via SSH):
+2. Install *Remote Development* plugin
+3. Select *Remote Explorer* and add *ssh -i <path_to_your_key>/<key_name.pem> <ec2-user@instance_public_ip>*
